@@ -1,0 +1,16 @@
+#name: John Dale Shoemaker
+#pitt username: jds140
+#email: jdaleshoemaker@gmail.com
+#date: 9/30/16
+#class: CS0008 F2016
+#assignment one
+#instructor: max novelli (man8@pitt.edu)
+Enter your preferred unit:USC
+How far did you drive25
+How much gas did you use1
+                                     USC            Metric
+Distance 25.000000       :       25.000 miles        40.233 kilometers
+Gas 1.000000             :       1.000 gallons       3.785 liters
+Consumption              :        10.629 mpg         9.409 1/100km
+
+Gas Consumption Rating: Average

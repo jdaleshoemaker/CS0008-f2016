@@ -1,0 +1,29 @@
+name: John Dale Shoemaker
+pitt username: jds140
+email: jdaleshoemaker@gmail.com
+date: 9/30/16
+class: CS0008 F2016
+assignment one
+instructor: max novelli (man8@pitt.edu)
+
+To write this program I first wanted to define the conversion factors since those would crop up again and again
+throughout the code. That is why you will see the the miles per kilometer, gallons per liter, kilometer per mile and
+liter per gallon defined first. Then you'll see the inputs defined below then. The unit is defined as a standard input
+and the distance and gas inputs are defined as floats because they are integers. After that, I defined the first line
+of the table that this program will eventually print out.
+
+Following those introductory definitions, I begin a large, all inclusive if-else statement that I broke up into four
+separate strings for the four parts of the final output table. The first chunk of strings are the "if" statement.The
+first is the Distance string which takes a distance that a user entered and displays it in both USC and Metric units.
+The second string is the Gas string which takes an
+amount of gas that a user entered and converts it into both gallons and liters and outputs it in the final table. The
+third string is the Consumption string which converts and formats all of the values in the Distance and Gas strings and
+outputs them with the respective consumption labels, namely miles per gallon and liters per 1/100 kilometers. Finally,
+there is the Rating string which interprets the Consumption string and outputs and understandable label that rates the
+users gas consumption based upon the variables entered.
+
+It should be noted that all strings are formated to print their values into the proper table.
+
+The next set of strings are nearly identical to the first four but are for the USC "else" statement rather than the
+Metric "if" statement. the Distance, Gas, Consumption and Rating strings are all present here and perform the same
+functions as described above.
