@@ -1,0 +1,6 @@
+Write up for Dale Shoemaker
+jds140
+
+To write this program, it was important to first grab the files I would be using, namely the master file that would in turn access the three data sets. Next, I defined the dictionary which would consolidate all of the data from the three files into one and asked python to collect all of the lines from the three files. Next, the program opens one of the CSV files and begins to read it. It ignores the first line of the two columns because that line is just the header. Then it counts how many lines there are and runs through each one, taking note of the two strings, name and distance. The program then cleans the name string and formats the distance string. Next, the program does a quick check on the names to see if they are in the dictionary and checks the distances. Then I to format the distance string a bit more and make sure the program could count all of the lines it was reading. Then I could print out the results of the program.
+
+In this print function, I set the program to list how many lines were in the file, the total distance run by all runners (this required a sum function) and how many runners ran. Then I asked the program to find the greatest distance run and the name associated with it. Those two pieces of information were also pulled out and printed. Then I had to call the main function.
